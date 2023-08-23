@@ -15,8 +15,8 @@ find_package(soem QUIET)
 
 ament_vendor(soem_vendor_ros2
   SATISFIED ${soem_FOUND}
-  VCS_URL https://github.com/OpenEtherCATsociety/SOEM.git
-  VCS_VERSION master
+  VCS_URL https://github.com/mcbed/SOEM.git
+  VCS_VERSION mcbed-vlan
   #CMAKE_ARGS
   #  "-DCMAKE_C_FLAGS:STRING=${CMAKE_C_FLAGS}$<$<BOOL:${MSVC}>: /wd4244 /wd4267 /wd4996>"
 )
