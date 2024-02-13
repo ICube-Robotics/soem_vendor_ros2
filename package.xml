@@ -10,4 +10,10 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
+  <buildtool_depend>ament_cmake_test</buildtool_depend>
+  <buildtool_depend>ament_cmake_gtest</buildtool_depend>
+
+  <test_depend>ament_cmake_copyright</test_depend>
+  <test_depend>ament_cmake_lint_cmake</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
 </package>
