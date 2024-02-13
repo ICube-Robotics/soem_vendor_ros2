@@ -143,5 +143,5 @@ repos:
     rev: v2.2.2
     hooks:
       - id: codespell
-        args: ['--write-changes']
+        args: ['--write-changes',  '--ignore-words-list=soem']
         exclude: CHANGELOG\.rst|\.(svg|pyc)$
